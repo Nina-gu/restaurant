@@ -1,0 +1,17 @@
+.pagination {
+    margin: 2%;
+    list-style-type: none;
+    max-width: 80%;
+    max-height: 10%;
+    text-align: center;
+}
+
+.pagination a {
+    margin: 10px;
+    float: left;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    color:cornflowerblue;
+}
