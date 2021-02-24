@@ -13,7 +13,7 @@ const List = ({ props }) => {
 
     const paginate = pageNumber => setPageNum(pageNumber);
 
-    if (restaurantsList == null || restaurantsList.length == 0) {
+    if (restaurantsList.length <= 0) {
         return (
             <>
                 <h2>No results found.</h2>
