@@ -1,0 +1,32 @@
+.search {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.search-bar {
+    padding: 1%;
+    width: 40vw;
+    max-width: 400px;
+}
+.search > div {
+    display: block;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.search > div > button {
+    padding: 1%;
+    margin: 1%;
+    height: 3vh;
+    font-size: 0.75rem;
+    line-height: 0.75em;
+    width: 50%;
+}
+
+.search > div > form > input {
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 0.8em;
+}
+
